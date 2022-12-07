@@ -941,14 +941,14 @@ DF_StatesA <- DFA %>%
 
           ratioYLL = SjYLL / FjYLL,
           ratioYLL2 = SjYLL2 / FjYLL2 )
-select(State, Race,
-       mortality_F1624, mortality_F2534, mortality_F3544, mortality_F4554, mortality_F5564,
-       mortality_Fcrude, mortality_Fagecat,
-       prop_F1624, prop_F2534, prop_F3544, prop_F4554, prop_F5564, prop_F1664, prop_F1664sum,
-       Fj1624, Fj2534, Fj3544, Fj4554, Fj5564,
-       FjagecatA, FjagecatB, Fjcrude,
-       mortality_S, prop_S, Sj, Sjtest,
-       ratioagecatA, ratioagecatB, ratiocrude)
+# select(State, Race,
+#        mortality_F1624, mortality_F2534, mortality_F3544, mortality_F4554, mortality_F5564,
+#        mortality_Fcrude, mortality_Fagecat,
+#        prop_F1624, prop_F2534, prop_F3544, prop_F4554, prop_F5564, prop_F1664, prop_F1664sum,
+#        Fj1624, Fj2534, Fj3544, Fj4554, Fj5564,
+#        FjagecatA, FjagecatB, Fjcrude,
+#        mortality_S, prop_S, Sj, Sjtest,
+#        ratioagecatA, ratioagecatB, ratiocrude)
 DF_StatesA <- as.data.frame(DF_StatesA)
 DF_StatesA
 head(DF_StatesA, 20)
